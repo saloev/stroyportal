@@ -37,10 +37,14 @@
     }
 
     &__list {
-      width: 30%;
+      width: 330px;
 
       & > li:last-child {
         margin-left: -20px;;
+      }
+
+      @include media('sm-and-down') {
+        display: none;
       }
     }
   }

@@ -29,6 +29,10 @@
         type: Boolean,
         default: false,
       },
+      icon: {
+        type: Boolean,
+        default: false,
+      },
       "icon-left": {
         type: Boolean,
         default: true,
@@ -47,6 +51,7 @@
           "base-button--is-warning": this.isWarning,
           "base-button--accent": this.accent,
           "base-button--info": this.info,
+          "base-button--icon": this.icon,
           "base-button--icon-left": this.iconLeft,
           "base-button--icon-right": this.iconRight,
           ...this.sizeableClasses,
@@ -148,6 +153,15 @@
         & > svg {
           margin-right: 0;
           margin-left: 8px;
+        }
+      }
+    }
+
+    &--icon {
+      .base-button__content {
+        & > svg {
+          margin-right: 0;
+          margin-left: 0;
         }
       }
     }

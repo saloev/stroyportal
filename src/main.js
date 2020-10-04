@@ -1,6 +1,13 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import Vue from "vue";
+import App from "./App.vue";
 
 import "@/scss/main.scss";
 
-createApp(App).mount('#app')
+// plugins
+import plugins from "./plugins/index";
+plugins();
+
+new Vue({
+  render: h => h(App)
+}).$mount('#app')
+

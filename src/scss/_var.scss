@@ -4,6 +4,26 @@
 $font-family-base: Avenir, Helvetica, Arial, sans-serif;
 $font-size-default: 1rem;
 
+$btn-font-size: (
+  "default": 14px,
+  "small": 12px,
+);
+
+$btn-line-height: (
+  "default": 24px,
+  "small": 20px,
+);
+
+$link-font-size: (
+  "default": 12px,
+  "small": 10px,
+);
+
+$link-line-height: (
+  "default": 20px,
+  "small": 15px,
+);
+
 /**
  * Colors
  */
@@ -45,4 +65,4 @@ $display-breakpoints:
     'xl-only': 'only screen and (min-width: #{map-get($grid-breakpoints, 'xl')})'
   );
 
-$container-max-width: 1110px;
+$container-max-width: 1150px;

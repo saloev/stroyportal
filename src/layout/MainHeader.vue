@@ -1,15 +1,18 @@
 <template>
   <header class="main-header">
-    <TopHeader />
+    <HeaderTop />
+    <HeaderMain />
   </header>
 </template>
 <script>
-  import TopHeader from "@/components/layout/TopHeader.vue";
+  import HeaderTop from "@/components/layout/HeaderTop.vue";
+  import HeaderMain from "@/components/layout/HeaderMain.vue"
   export default {
     name: "MainHeader",
 
     components: {
-      TopHeader,
+      HeaderTop,
+      HeaderMain,
     },
   };
 </script>

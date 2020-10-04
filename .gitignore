@@ -8,8 +8,8 @@ node_modules
 .env.*.local
 
 # generated icons
-./src/icons
-./src/icons/*
+src/icons/*
+
 
 # Log files
 npm-debug.log*

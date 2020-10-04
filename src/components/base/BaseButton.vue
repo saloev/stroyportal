@@ -64,7 +64,7 @@
   .base-button {
     position: relative;
 
-    padding: 10px 16px;
+    padding: 8px 16px;
 
     font-size: #{map-get($btn-font-size, "default")};
     line-height: #{map-get($btn-line-height, "default")};

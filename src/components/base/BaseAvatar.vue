@@ -53,7 +53,6 @@
       },
     },
     mounted() {
-      console.log(this.bgColor);
     }
   };
 </script>

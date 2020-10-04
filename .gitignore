@@ -9,6 +9,7 @@ node_modules
 
 # generated icons
 ./src/icons
+./src/icons/*
 
 # Log files
 npm-debug.log*

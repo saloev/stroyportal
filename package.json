@@ -5,7 +5,7 @@
   "scripts": {
     "svg": "vsvg -s ./src/assets/icons -t ./src/icons",
     "serve": "npm run svg && vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "npm run svg && vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.5",

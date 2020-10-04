@@ -2,6 +2,15 @@
   <div class="header-main">
     <BaseContainer class="header-main__container">
       <BaseLogo />
+      <BaseButton is-warning>
+        <BaseIcon icon="list" />
+        Каталог
+      </BaseButton>
+      <BaseButton accent>
+        <BaseIcon icon="list-notification" />
+        Список
+      </BaseButton>
+      <BaseAvatar name="Andrew"></BaseAvatar>
     </BaseContainer>
   </div>
 </template>

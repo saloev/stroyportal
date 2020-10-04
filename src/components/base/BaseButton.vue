@@ -25,15 +25,15 @@
         type: Boolean,
         default: false,
       },
+      "is-warning": {
+        type: Boolean,
+        default: false,
+      },
       "icon-left": {
         type: Boolean,
         default: true,
       },
       "icon-right": {
-        type: Boolean,
-        default: false,
-      },
-      "is-warning": {
         type: Boolean,
         default: false,
       },
@@ -85,6 +85,7 @@
       height: 100%;
 
       background: currentColor;
+      border-radius: 4px;
 
       opacity: 0;
       transform: scale(0);
@@ -142,7 +143,7 @@
       }
     }
 
-     &--icon-right {
+    &--icon-right {
       .base-button__content {
         & > svg {
           margin-right: 0;
